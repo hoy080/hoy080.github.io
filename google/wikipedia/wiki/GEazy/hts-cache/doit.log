@@ -1,0 +1,8 @@
+http://en.wikipedia.org/wiki/G-Eazy/ -O "/Users/yukheiho/Downloads/en.wikipedia.org/wiki/G-Eazy" -P none:8080 -%v en.wikipedia.org/wiki/G-Eazy*
+File generated automatically on Tue, 02 Feb 2021 23:14:19, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

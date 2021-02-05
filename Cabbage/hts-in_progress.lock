@@ -1,0 +1,7 @@
+Mirror in progress since Tue, 02 Feb 2021 22:35:39 .. please wait!
+winhttrack https://www.amazon.com/CABBAGE-FRESH-PRODUCE-VEGETABLES-FLORIDA/dp/B00AU1MFEI/ref=sr_1_11?dchild=1&keywords=cabbage&qid=1612272822&sr=8-11 -O "/Users/yukheiho/Downloads/Cabbage" -P none:8080 -%v 
+To pause the engine: create an empty file named 'hts-stop.lock'
+PID=7898
+UID=501
+GID=501
+START=1612272939
