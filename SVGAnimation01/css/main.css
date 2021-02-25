@@ -1,0 +1,84 @@
+.leaf {
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  width: 500px;
+  height: 500px;
+}
+
+.smoke {
+  position: absolute;
+  top: 30%;
+  left: 75%;
+  width: 400px;
+  height: 400px;
+}
+
+.water {
+  position: absolute;
+  top: 5%;
+  left: 80%;
+  width: 300px;
+  height: 300px;
+}
+
+.flower {
+  position: absolute;
+  top: 10%;
+  left: 52%;
+  width: 300px;
+  height: 300px;
+}
+
+.description {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  top: 22%;
+  left: 3.5%;
+}
+
+.container {
+  margin-top: 40px;
+  margin-left: 460px;
+}
+
+
+div.leaf {
+  animation: spinType 8s;
+}
+
+
+div.smoke {
+  animation: spinType 2s;
+}
+
+
+div.water {
+  animation: spinType 6s;
+}
+
+
+div.flower {
+  animation: spinType 4s;
+}
+
+
+
+@keyframes spinType {
+  0% {
+    transform: rotate(0.2turn);
+  }
+  20% {
+    transform: rotate(0.4turn);
+  }
+  40% {
+    transform: rotate(0.6turn);
+  }
+  60% {
+    transform: rotate(0.8turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
