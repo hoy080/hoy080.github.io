@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  height: 100vh;
+  grid-template-areas: "navbar navbar navbar"
+                       "left_addbar main_content right_addbar"
+                       "footer footer footer";
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr 6fr 1fr;
+}
+
+div.container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-areas:
+    "head head head"
+    "panleft mainbody panright"
+    "foot foot foot";
+}
+
+
+div.header {
+  position: fixed;
+  background: rgb(0, 0, 0, 0.2);                             /* 20% black */
+  grid-area: head;                /* head corresponds to name in template */
+}
+div.footer {
+  background: rgb(0, 0, 0, 0.2);
+  grid-area: foot;
+}
+div.panel {                            /* div elements with "panel" class */
+  background: rgb(0, 0, 0, 0.1);                             /* 10% black */
+}
+div.panel.left {                    /* with both "panel" and "left" class */
+  grid-area: panleft;
+}
+div.panel.right {
+  grid-area: panright;
+}
+div.mainbody {
+  position: absolute;
+  grid-area: mainbody;
+  top: 150px;
+  left: 510px;
+}
+
+html {
+  width: 100%;                    /* 100% width of parent (root) element */
+  height: 100vh;                  /* 100% height of viewport */
+  background: rgb(0, 0, 0, 0.1);  /* 10% opacity black (very light gray) */
+  font-size: 1.0em;               /* root font size */
+}
+body {
+  margin: 0;                      /* no margin at edge of content */
+  height: 100%;                   /* 100% height of parent (html) element */
+}
+.parent {
+  position: fixed;
+  top: 120px;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  top: -450px;
+  left: 0px;
+}
+.image2 {
+  position: absolute;
+  top: 400px;
+  left: 0px;
+}
+
+.image3 {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+}
+
+
+.image4 {
+  position: absolute;
+  top: 50px;
+  left: 90px;
+}
+
+.parent2 {
+  position: fixed;
+  top: 120px;
+  left: 1180px;
+}
+
+.row {
+    margin: 20px auto;
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Size of items defined inside container */
+}
+.row div {
+    border: 1px dashed gray;
+    text-align: center;
+    padding: 12px;
+}
+.row {
+    margin: 20px auto;
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Size of items defined inside container */
+}
+.row div {
+    border: 1px dashed gray;
+    text-align: center;
+    padding: 12px;
+}
+
+.dabottom {
+  position: absolute;
+  top: 812px;
+}
