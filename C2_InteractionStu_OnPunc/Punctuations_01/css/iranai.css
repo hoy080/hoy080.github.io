@@ -1,0 +1,57 @@
+.box {
+  display: grid;
+  justify-content: end;
+  grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px  ; /*Make the grid smaller than the container*/
+  grid-gap: 0px;
+  background-color: #FFFF00;
+  padding: 100px;
+}
+
+.box > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 500px 0;
+  font-size: 30px;
+
+
+/* OLD STUFF
+.box {
+  margin     : auto;
+  max-width  : 500px;
+  height     : 200px;
+
+  border     : 2px solid #b35900;
+  background-color   : #ffffff;
+  background-image   : 
+      linear-gradient(to right,
+                         #ffffff,
+                         #ffffff     10%,
+                         #b35900     11%,
+                         #b35900     12%,
+                         transparent 13%,
+                         transparent 87%,
+                         #b35900     88%,
+                         #b35900     89%,
+                         #ffffff     90%,
+                         #ffffff),
+      linear-gradient(to bottom,
+                         transparent,
+                         transparent 97%,
+                         #b35900     98%,
+                         #b35900);
+  background-position: right 2px top;
+  background-size    : 49px 39px;
+}
+  .box {width: 10%;
+    height: 920px;
+    background: #FFFFFF;
+    border: 1.5px solid #16AED2;
+    margin: 20px auto;
+  
+  }
+  
+  .box span {
+    vertical-align: middle;
+    display: table-cell;
+  }
+  
