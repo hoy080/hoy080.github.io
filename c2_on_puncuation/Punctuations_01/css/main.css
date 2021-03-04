@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;400&display=swap');
+@import url('sliding_words.css');
+
+* {
+  /* box-sizing: border-box; */
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 0 0 0;
+  background-color: #fefefe;
+}
+
+.window-border {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom:0;
+  left: 0;
+  border     : 2px solid #46A7D2;
+  margin-top:     1.5vh;
+  margin-bottom:  1.5vh;
+  margin-left:    1.5vw;
+  margin-right:   1.5vw;
+}
+
+.flex-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom:0;
+  left: 0;
+
+  display: flex;
+  flex-flow: row-reverse nowrap;
+
+  overflow: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  margin-top:     1.5vh;
+  margin-bottom:  1.5vh;
+  margin-left:    1.5vw;
+  margin-right:   1.5vw;
+}
+
+.flex-item {
+  border: 2px solid #46A7D2;
+
+  min-width: 7em;
+  max-width: 7em;
+}
+
+.inner-box {
+  text-align: center;
+  padding: 10px;
+}
+
+.inner-box:hover,
+.inner-box:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sliding-words-wrapper {
+  overflow: hidden;
+  overflow-y: hidden;
+  height: 95vh;
+}
+
+.sliding-words {
+  color: #46A7D2;
+}
+
+.svg-import {
+  padding-bottom: 10px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  font-family: 'Spartan', sans-serif;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  background: url(../../public/50.svg);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  /* background: url(../public/50.svg); */
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
