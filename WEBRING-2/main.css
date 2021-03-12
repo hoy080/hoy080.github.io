@@ -1,0 +1,103 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;400&display=swap'); */
+
+@font-face {
+  font-family: DomaineTextTest;
+  src: url("fonts/Domaine/DomaineTextTest-Light.otf");
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: DomaineTextTest;
+  text-transform: uppercase;
+
+}
+
+body {
+  margin: 0 0 0 0;
+  background-size: cover;
+}
+
+.landing-page-background {
+  background: url(public/homepage.jpg);
+  background-size: cover;
+}
+
+.student-page-background {
+  background: url(public/students.jpg);
+  background-size: cover;
+}
+
+.studio-page-background {
+  background: url(public/interactionstudio.jpg);
+  background-size: cover;
+}
+
+.interaction-page-background {
+  background: url(public/labinteraction.jpg);
+  background-size: cover;
+}
+
+.flex-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom:0;
+  left: 0;
+
+  display: flex;
+  flex-flow: row nowrap;
+
+  overflow: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  margin-top:     1.5vh;
+  margin-bottom:  1.5vh;
+  margin-left:    1.5vw;
+  margin-right:   1.5vw;
+}
+
+.flex-item {
+  border-left: 1px solid #fefefe;
+
+  min-width: 16em;
+  max-width: 16em;
+  position: relative;
+}
+
+.flex-last-item {
+  border-left: 1px solid #fefefe;
+  position: relative;
+
+}
+
+.bottom-left-text {
+  margin: 0;
+  padding-top: 0.05em;
+  font-size: 5em;
+  color: #fefefe;
+  writing-mode: tb-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  left: -5%;
+  text-decoration: none;
+}
+
+.top-right-text {
+  margin: 0;
+  padding-top: 0.05em;
+  font-size: 5em;
+  color: #fefefe;
+  writing-mode: tb-rl;
+  transform: rotate(0deg);
+  position: absolute;
+  top: 0;
+  right: -5%;
+  text-decoration: none;
+}
+
+.smaller-text {
+  font-size: 4.5em;
+}
