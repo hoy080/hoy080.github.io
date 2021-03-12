@@ -1,0 +1,115 @@
+
+body {
+  display: grid;
+  background-color: #597f6e;
+  grid-gap: 1em;
+  grid-template-columns: 1;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.header {
+  position: relative;
+  color: #E19D1E;
+}
+
+.title1{
+  background-color: #ededed;
+  text-align:center;
+  vertical-align: middle;
+  padding:20px 50px;
+}
+
+.title2{
+  background-color: #ededed;
+  text-align:center;
+  vertical-align: middle;
+  padding:20px 50px;
+}
+
+.title3{
+  background-color: #ededed;
+  text-align:center;
+  vertical-align: middle;
+  padding:20px 50px;
+}
+
+.title4{
+  background-color: #ededed;
+  text-align:center;
+  vertical-align: middle;
+  padding:20px 50px;
+}
+
+.title5{
+  background-color: #ededed;
+  text-align:center;
+  vertical-align: middle;
+  padding:20px 50px;
+}
+
+.title6{
+  background-color: #ededed;
+  text-align:center;
+  vertical-align: middle;
+  padding:20px 50px;
+}
+
+.section1{
+  font-size: 16px;
+  line-height: 37px;
+  padding: 2em;
+  background: #597f6e;
+}
+
+h1{
+ font-family: josefin-sans, sans-serif;
+ font-weight: 700;
+ font-style: italic;
+ text-align: center;
+ letter-spacing: 1.3px;
+ color: #6eb8d4;
+}
+
+h3{
+ font-family: josefin-sans, sans-serif;
+ font-weight: 400;
+ font-style: italic;
+ font-size: 24px;
+ top: 20px;
+ text-align: center;
+ color: #6eb8d4;
+}
+
+h2{
+ font-family: josefin-sans, sans-serif;
+ font-weight: 400;
+ font-style: italic;
+ font-size: 32px;
+ color: #ededed;
+}
+
+h4{
+ font-family: josefin-sans, sans-serif;
+ font-weight: 400;
+ font-style: italic;
+ font-size: 55px;
+ letter-spacing: 1.3px;
+ color: #0275e8;
+ display: inline;
+}
+
+p{
+  font-family: josefin-sans,sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 16px;
+  line-height:1.5;
+  color: #ededed;
+}
+
+a {
+  color: #E19D1E;
+  font-size: 200px;
+  text-decoration: none;
+}
