@@ -1,0 +1,23 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  font-family: sans-serif;
+}
+
+.book {
+  display: inline-block;
+  width: 200px;
+  height: 320px;
+  background-size: cover;
+  margin: 10px;
+  border-radius: 10px;
+  vertical-align: top;
+  position: relative;
+}
+
+.book__label {
+  position: absolute;
+  bottom: 0;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+}
