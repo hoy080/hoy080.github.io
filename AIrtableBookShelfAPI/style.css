@@ -1,0 +1,81 @@
+body {
+  background-color: #e61c15;
+}
+html {
+  -webkit-font-smoothing: antialiased;
+  font-family: sans-serif;
+}
+
+.book {
+  display: inline-block;
+  width: 200px;
+  height: 420px;
+  background-size: cover;
+  margin: 10px;
+  border-radius: 10px;
+  padding-left: 100px;
+  vertical-align: middle;
+  position: relative;
+  padding-right: 10px
+}
+
+.book__label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  background-color: #e61c15;
+  color: white;
+  background-color: cover;
+  opacity: 0;
+}
+
+
+.book__label:hover{
+  opacity: 0.75;}
+
+/* Shiiiiiit */
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap):
+
+
+html {
+  -webkit-font-smoothing: antialiased;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  color: #FFFFFF;
+  font-size: 100px;
+  padding: 20px;
+  justify-content: left;
+  font-weight: 500;
+}
+  width: 50%;
+
+
+.book-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.description:hover{
+  opacity: 0.75;}
+
+.description {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  bottom: 0;
+  border-radius: 8px;
+  background-color: red;
+  color: white;
+  opacity: 0;
+  font-size: 0.75em;
+}
