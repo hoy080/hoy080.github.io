@@ -1,0 +1,55 @@
+/* Test CSS <- Refer to later*/
+
+html {
+  -webkit-font-smoothing: antialiased;
+  font-family: sans-serif;
+}
+
+.book {
+  display: inline-block;
+  width: 200px;
+  height: 320px;
+  background-size: cover;
+  margin: 10px;
+  border-radius: 10px;
+  vertical-align: top;
+  position: relative;
+}
+
+.book__label {
+  position: absolute;
+  bottom: 0;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+}
+
+iframe{
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   -o-filter: grayscale(100%);
+   filter: grayscale(100%);
+}
+
+image {
+  -webkit-filter: grayscale(1); /* Webkit */
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* W3C */
+}
+
+body {
+  filter: grayscale(1);
+}
+
+head {
+  filter: grayscale(1);
+}
+
+
+html {
+    -moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: gray; /* IE6-9 */
+    filter: grayscale(100%);
+}
